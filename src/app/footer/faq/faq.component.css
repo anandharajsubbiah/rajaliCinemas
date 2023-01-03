@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+style * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #F84464;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+#sign-up {
+    margin-left: 1050px;
+    right: 280px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+}
+
+#offer {
+    margin-left: 1150px;
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#home{
+    position: relative;
+    left: 950px;
+    bottom: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#faq{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+#question{
+    margin-left: 100px;
+    color: #F84464;
+}
+#answer{
+    margin-left: 120px;
+    padding-top: 10px;
+}

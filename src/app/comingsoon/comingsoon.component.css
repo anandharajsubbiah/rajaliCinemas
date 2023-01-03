@@ -1,0 +1,259 @@
+style * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #F84464;
+    width: 100%;
+    overflow: auto;
+    position: relative; 
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+}
+nav a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 17px;
+    color: white;
+    font-weight: 200px;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+    background-color: #D5BDB2;
+    color: #F84464;
+    transition: 0.10s;
+    text-transform: uppercase;
+}
+#city{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    border-color:#F84464;
+    border-width: 2px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;   
+}
+#nav-search {
+    height: 30px;
+    width: 480px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: left;
+    border-color: white;
+    border-width: 2px;
+    margin-left: 190px;
+    margin-top: 30px; 
+    padding-left: 28px;
+    color: black;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#nav-button {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border-color:#F84464;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 7px;
+    background-color: #F84464;
+    color: white;
+    border-color: #F84464;
+}
+#sign-in {
+    margin-left: 1050px; 
+    right: 180px;
+    bottom: 45px;
+    position:absolute;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+}
+#offer{
+    position: relative;
+    /* margin-left: 1100px;  */
+    right: 300px;
+    bottom: 45px;
+    position:absolute;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+}
+
+
+#slide {
+    overflow: hidden;
+
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 10px;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    90% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+.now-showing {
+    font-size: 18px;
+    font-weight: 100px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    margin-left: 400px;
+    
+}
+.now-showing button {
+    width: 170px;
+    height: 30px;
+    background-color:  #F84464;
+    color: white;
+    border-color: #F84464;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+#coming-soon{
+    position: relative;
+    left: 180px;
+    background-color: #ffad99;
+   color: #F84464;
+   text-transform: uppercase;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.cont {
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-left: 90px;
+    display:block;
+}
+
+.movie {
+    border: 1px solid gray;
+    padding: 10px;
+    margin:10px;
+    position: relative;
+    float: left;
+    overflow: auto;
+    text-align: center; 
+}
+
+.movie img {
+    margin: 10px;
+    position: relative;
+    box-sizing: content-box;
+
+}
+.movie-button button{
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    position: relative;
+    align-items: baseline;
+    font-size: 18px;
+    background-color: #F84464;
+    color: white;
+    border-color: #F84464;
+    border-radius: 10px;
+    transition: all 0.5s ease
+}
+.movie-button button:hover{
+	color: #F84464;
+	background-color: #ffffff;
+}
+@media(max-width: 767px){
+    .movie-button button{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .movie-button button{
+      width: 100%;
+  }
+  }
+  
+.movie-name h2{
+    font-size: 18px;
+}
+

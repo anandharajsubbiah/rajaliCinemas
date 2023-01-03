@@ -1,0 +1,156 @@
+h6{
+    position: relative;
+    left: 350px;
+    font-size: 14px;
+}
+ #pick{
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.theater{
+    margin-left: 100px;
+    padding: 20px;
+}
+.fa-solid{
+    margin-left: 20px;
+    height: 10px;
+    width: 10px;
+    color: #F84464;
+}
+#film{
+    color: #F84464;
+    margin-left: 120px;
+    padding-bottom: 50px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.btn-group button{
+  background-color: #D5BDB2;
+  border: 1px solid white;
+  cursor: pointer;
+  color: black;
+  padding: 10px 24px;
+  float: left;
+}
+.btn-group:after {
+content: "";
+clear: both;
+display: table;
+}
+.btn-group button:not(:last-child){
+    border-right: none;
+}
+.btn-group button:hover{
+    background-color: #F84464;
+}
+.btn-group:focus{
+    color: aqua;
+}
+#notes{
+    margin-left: 100px;
+    margin-top: 600px;
+}
+#small{
+    width: 540px;
+    height: 400px;
+    margin-left: 140px;
+    transform: rotate(15deg);
+}
+#conditions{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+#show-time{
+    position: absolute;
+    left: 700px;
+    top: 850px;
+}
+#show{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+#show:hover{
+    color: #F84464;   
+}
+#show-time1{
+    position: absolute;
+    left: 700px;
+    top: 990px;
+}
+#show1{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+#show1:hover{
+    color: #F84464;   
+}
+#show-time2{
+    position: absolute;
+    left: 700px;
+    top: 1130px;
+}
+#show2{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+#show2:hover{
+    color: #F84464;   
+}
+#show-time3{
+    position: absolute;
+    left: 700px;
+    top: 1280px;
+}
+#show3{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+#show3:hover{
+    color: #F84464;   
+}
+#show-time4{
+    position: absolute;
+    left: 700px;
+    top: 1440px;
+}
+#show4{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+#show4:hover{
+    color: #F84464;   
+}
+#show-time5{
+    position: absolute;
+    left: 700px;
+    top: 1590px;
+}
+#show5{
+    margin-left: 30px;
+    color: green; 
+    font-weight: 600;
+}
+#show5:hover{
+     color: #F84464;    
+}
+#show-time6{
+    position: absolute;
+    left: 700px;
+    top: 1730px;
+}
+#show6{
+    margin-left: 30px;
+    color: green;
+    font-weight: 600;
+}
+ #show6:hover{
+    color: #F84464;   
+} 

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+style * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #F84464;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+#sign-up {
+    margin-left: 1050px;
+    right: 280px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+}
+
+#offer {
+    margin-left: 1150px;
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+#home{
+    position: relative;
+    left: 950px;
+    bottom: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+p{
+    width: 700px;
+    height: 40px;
+    border: 2px outset #F84464;
+    position: relative;
+   background-color:#F84464;    
+  text-align: center;
+  left: 330px;
+  top: 30px;
+  font-size: 18px;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.seat-status{
+    position: relative;
+    left: 10px;
+    
+}
+#available{
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+}
+#Occupied{
+    background-color:#2CA046;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+}
+/* .seat{
+    background-color: gray;
+    height: 30px;
+    width: 32px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.row{
+    display: flex;
+}
+#book{
+    color: #F84464;
+    position:fixed;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 30px;
+}
+.seat:nth-of-type(5){
+    margin-right: 58px;
+}
+.seat:nth-last-of-type(5){
+    margin-right: 58px;
+} */
+
+p {
+    font-family: Lato;
+  }
+  table{
+    /* display:inline-table; */
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+   display:flex;
+   max-width: 200px;
+   
+  }
+  #seats{
+    /* background-color: gray; */
+    height: 30px;
+    width: 32px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 10px;
+  }
+#seat{
+    float: left;
+    max-width: 200px;
+}
+#pay{
+    position: relative;
+    left: 700px;
+    top: 200px;
+}
+

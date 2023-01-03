@@ -1,0 +1,88 @@
+<header>
+    <div class="bar">
+      <nav>
+        <ul>
+          <li id="rajali"><img [src]=myimage width="200px" height="120px" alt="rajali cinemas"></li></ul>
+          <button id="home" routerLink="/home-page">Home <i class="fa-solid fa-house-chimney"></i>
+          </button>
+        <button id="offer" routerLink="/offer" >Offer <i class="fa-solid fa-tag"></i></button>
+        
+      </nav>
+    </div>
+  </header>
+  
+<div>
+   <div>
+    <p>Screen This Way</p>
+    <div class="seat-status">
+    <button id="available" disabled>Available</button>
+    <button id="Occupied" disabled>Occupied</button>
+</div>
+   </div>
+   <div class="container"  >
+    <table>
+      <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td id="seat">
+          <button id="seats"[ngClass]="{'btn btn-danger':user.active, 'btn btn-success':!user.active}" (click)="click(user)"> {{user.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user1 of users1">
+        <td>{{user1.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user1.active, 'btn btn-success':!user1.active}" (click)="click(user1)"> {{user1.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user2 of users2">
+        <td>{{user2.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user2.active, 'btn btn-success':!user2.active}" (click)="click(user2)"> {{user2.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user3 of users3">
+        <td>{{user3.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user3.active, 'btn btn-success':!user3.active}" (click)="click(user3)"> {{user3.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user4 of users4">
+        <td>{{user4.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user4.active, 'btn btn-success':!user4.active}" (click)="click(user4)"> {{user4.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user5 of users5">
+        <td>{{user5.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user5.active, 'btn btn-success':!user5.active}" (click)="click(user5)"> {{user5.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+    <table>
+      <tr *ngFor="let user6 of users6">
+        <td>{{user6.name}}</td>
+        <td id="seat">
+          <button  id="seats" [ngClass]="{'btn btn-danger':user6.active, 'btn btn-success':!user6.active}" (click)="click(user6)"> {{user6.active ? 'A':''}}
+        </button>
+        </td>
+      </tr>
+    </table>
+   </div>
+   <button id="pay" type="button" class="btn btn-success"  (click)="myFunc()" routerLink="/home-page">Continue To Pay</button>
+   

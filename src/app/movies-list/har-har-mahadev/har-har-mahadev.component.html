@@ -1,0 +1,56 @@
+<header>
+    <div class="bar">
+      <nav >
+        <ul>
+          <li id="rajali"><img [src]=myimage width="200px" height="120px" alt="rajali cinemas"></li></ul>
+          
+          <select  name="" id="city">
+            <optgroup label="Select City ">
+              <option >Chennai</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only, Very soon Availble in Other cities" disabled style="color: red;">Bangalore</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Mumbai</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Madurai</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Delhi</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Pune</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Trichy</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Kolkata</option>
+              <option title="Rajali Cinemas Now Available in Chennai Only Very soon Availble in Other cities" disabled style="color: red;">Lucknow</option>
+            </optgroup>
+          </select>
+      
+  
+            <button routerLink="/sign-in" id="sign-in" > <i class="fa-regular fa-user"></i>Sign In </button>
+           
+      </nav>
+    </div>
+  </header>
+  <div class="trailer">
+    <iframe class="hara" width="560" height="315" src="https://www.youtube.com/embed/ACF6_JFgZm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="description">
+        <h1>Har Har Mahadev (U)</h1>
+        <h5>Hindi <br> Action  <br> Release Date:25/10/2022 <br> Movie Hours: 2 hrs 47 min </h5>
+        <p>Actors: Sharad Kelkar | Subodh Bhave | Nithish Chavan <br> Director: Abhijeet<br>Music Director: Hitesh Modak</p>
+   
+        <span class="imdbRatingPlugin" data-user="ur158564337" data-title="tt22489564" data-style="p1"><a href="https://www.imdb.com/title/tt22489564/?ref_=plg_rt_1" target="_blank"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt="Har Har Mahadev (2022) on IMDb" />
+        </a></span>
+    <h6>Click Imdb For Ratings</h6>
+</div>
+</div>
+  <div class="row">
+    <div class="col-md-6"> 
+   <div id="pick" class="btn-group activeOptions" >
+    <button id="pick-date" type="button" style="background-color:#F84464" class="btn  default active">{{ dataService.tomorrow | date}}</button>  
+    <button id="pick-date" type="button"  class="btn  default active">{{dataService.tomorrow1| date}}</button>
+   <button id="pick-date" type="button" class="btn default active">{{dataService.tomorrow2 |date}}</button>
+   <button id="pick-date" type="button" class="btn default active">{{dataService.tomorrow3 |date}}</button>
+   <button id="pick-date" type="button" class="btn default active">{{dataService.tomorrow4 |date}}</button>
+   <button id="pick-date" type="button" class="btn default active ">{{dataService.tomorrow5 |date}}</button>
+  </div>
+</div>
+</div>
+<app-theater-list></app-theater-list>
+
+
+     
+
+

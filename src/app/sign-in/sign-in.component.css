@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+style * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #F84464;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+#sign-up {
+    margin-left: 1050px;
+    right: 280px;
+    bottom: 60px;
+    position: absolute;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+}
+
+#offer {
+    margin-left: 1150px;
+    position: absolute;
+    right: 150px;
+    bottom: 60px;
+    width: 100px;
+    height: 40px;
+    background-color: #F84464;
+    border-color: #F84464;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.card-header:first-child {
+    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0;
+}
+
+.card-header {
+    position: relative;
+    padding: 2rem 2rem;
+    border-bottom: none;
+    background-color: white;
+    box-shadow: 0 0.125rem 0.25rem #F84464 / 8%;
+    /* z-index: 2; */
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    /* max-height: 100px; */
+    margin-top: 70px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    box-shadow: 0 0.5rem 1rem #F84464;
+    border-radius: 1rem;
+}
+
+.bg-gray-100 {
+    background-color: #f8f9fa !important;
+}
+
+body {
+    font-family: 'Poppins' !important;
+}
+
+.text-primary {
+    color: #4650dd !important;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.lead {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.text-sm {
+    font-size: .7875rem !important;
+}
+
+h3,
+.h3 {
+    font-size: 1.575rem;
+}
+
+.page-holder {
+    display: flex;
+    overflow-x:visible;
+    width: 100%;
+    min-height: calc(100vh - 72px);
+
+    flex-wrap: wrap;
+}
+
+a {
+    color: #4650dd !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+h1{
+    color: #F84464;
+    text-decoration: underline;
+    font-style: italic;
+}
+p{
+    color: #F84464;
+}
+.eagle{
+    position: relative;
+    left: 300px;
+    top: 200px;
+
+}
